@@ -1,21 +1,17 @@
-import { Link } from "react-router-dom";
-
-function Sidebar() {
+import { NavLink } from "react-router-dom";
+import "./styles/Sidebar.css";
+const Sidebar = () => {
   return (
-    <div style={{ width: "200px", backgroundColor: "#f0f0f0", padding: "1rem", height: "100vh" }}>
+    <div className="sidebar">
       <h2>Gateway UI</h2>
-      <nav>
-        <ul style={{ listStyle: "none", padding: 0 }}>
-          <li><Link to="/">Dashboard</Link></li>
-          <li><Link to="/encryption">Encryption Handler</Link></li>
-          <li><Link to="/packet">Packet Converter</Link></li>
-          <li><Link to="/protocol">Protocol Bridge</Link></li>
-          <li><Link to="/qos">QoS Simulator</Link></li>
-          <li><Link to="/voice">Voice Codec</Link></li>
-        </ul>
-      </nav>
+      <NavLink to="/" end>Dashboard</NavLink>
+      <NavLink to="/encryption-handler">Encryption Handler</NavLink>
+      <NavLink to="/packet-converter">Packet Converter</NavLink>
+      <NavLink to="/protocol-bridge">Protocol Bridge</NavLink>
+      <NavLink to="/qos-simulator">QoS Simulator</NavLink>
+      <NavLink to="/voice-codec">Voice Codec</NavLink>
     </div>
   );
-}
+};
 
 export default Sidebar;
