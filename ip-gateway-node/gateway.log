@@ -1,0 +1,9 @@
+2025-04-10T17:28:53.177Z - Received packet from 127.0.0.1:55632
+2025-04-10T17:34:16.071Z - Received packet from 127.0.0.1:63870
+2025-04-10T17:37:06.323Z - Received packet from 127.0.0.1:58786
+[2025-04-10T17:40:55.087Z] 📥 Received UDP packet from 127.0.0.1:52605
+[2025-04-10T17:40:55.088Z] 📝 Original Message: Hello from SDR-A
+[2025-04-10T17:40:55.200Z] ✅ Packet passed QoS checks
+[2025-04-10T17:40:55.200Z] 🎧 Simulated Voice Codec: Hello from SDR-A
+[2025-04-10T17:40:55.201Z] 🔐 Encrypted Payload: {"iv":"e18a9918596c69b0f95e62103e5b80eb","data":"f502d81042f1565fb174bd426d7ad4b6729c52d2f9020fac63a0becaed7cc308"}
+[2025-04-10T17:40:55.210Z] 📤 Successfully sent to SDR-B over TCP
